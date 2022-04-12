@@ -57,6 +57,27 @@ if (a > 0 && a < 5) {
 
 var num = prompt("Введите число от 1 до 4");
 var result;
+if (num == 1) {
+    result = "Зима"; 
+    }
+    else if (num == 2) {
+        result = "Весна";
+    }    
+    else if (num == 3) {
+        result = "Лето";
+    }    
+    else if (num == 4) {
+        result = "Осень";
+    }    
+    else {
+        result = "Неверное значение";
+    }        
+alert (result);
+
+//Задача 5 (Switch)
+
+var num = prompt("Введите число от 1 до 4");
+var result;
 switch (num) {
     case '1':
         result = "Зима"; 
@@ -74,4 +95,5 @@ switch (num) {
         result = "Неверное значение";          
 }
 alert (result)
+
 

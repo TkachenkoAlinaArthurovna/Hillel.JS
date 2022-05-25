@@ -8,16 +8,16 @@ function creatButton(tag, clName, text) {
     wrap.append(btn)
 }
 
-var fieldsABC = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
-for (var j = 0; j < fieldsABC.length; j++) {
-    for (var i = 0; i < fieldsABC.length; i++) {
-        creatButton('button', 'btn', fieldsABC[i] + (j + 1))
+var field = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+for (var j = 0; j < field.length; j++) {
+    for (var i = 0; i < field.length; i++) {
+        creatButton('button', 'btn',(j + 1) + field[i])
 
     }
 }
 
 var wrap = document.querySelector('.wrap')
-var arrShip = ['A1', 'C1', 'D1', 'F2', 'F3', 'B3', 'B4', 'B5', 'F6', 'G6', 'H6', 'A8', 'B8', 'C8', 'D8', ]
+var ships = ['1a', '3a',' 4a', '6b',' 2c', '6c', '2d', '2e', '6f', '7f', '8f', '1h', '2h', '3h', '4h']
 var indicator = document.createElement('div');
 indicator.className = 'value';
 wrap.before(indicator);
@@ -27,10 +27,12 @@ wrap.addEventListener('click', function (e) {
     if (elem) {
         console.log(elem.dataset.id)
     }
-    if (arrShip.includes(elem.dataset.id)) {
+    if (ships.includes(elem.dataset.id)) {
         elem.className = 'btnShip';
         indicator.innerHTML = 'РАНИЛИ!';
     } else {
         indicator.innerHTML = 'МИМО:)';
     }
 })
+
+

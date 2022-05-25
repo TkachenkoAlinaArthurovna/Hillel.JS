@@ -1,0 +1,66 @@
+<<<<<<< Updated upstream
+=======
+.wrap {
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+
+.symbolABC {
+    width: 280px;
+    display: flex;
+}
+
+.symbol {
+    width: 35px;
+    height: 25px;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.symbolNumber {
+    position: absolute;
+    margin-top: 25px;
+}
+
+.symbolNum {
+    width: 15px;
+    height: 35px;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    
+}
+
+.btn {
+    width: 35px;
+    height: 35px;
+    background-color: #0099FF;
+    color: #0099FF;
+    border: 1px solid #0000FF;
+}
+
+.btnShip {
+    width: 35px;
+    height: 35px;
+    background-color: red;  
+    color: red;
+    border: 1px solid red;
+}
+
+.value {
+    min-width: 100px;
+    height: 50px; 
+    position: absolute;
+    top: 50px;
+    left:350px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #0000FF;
+
+    font-size: 25px;
+    color:black;
+    background-color: #0099FF;
+}
+>>>>>>> Stashed changes

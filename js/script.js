@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
 
-=======
 function creatButton(tag, clName, text) {
     var btn = document.createElement(tag);
     btn.className = clName;
@@ -36,5 +34,3 @@ wrap.addEventListener('click', function (e) {
         indicator.innerHTML = 'МИМО:)';
     }
 })
-
->>>>>>> Stashed changes

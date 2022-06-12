@@ -1,0 +1,22 @@
+<<<<<<< Updated upstream
+=======
+.product {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 600px; 
+}
+
+.input {
+    margin: 10px;
+}
+
+.description-textarea {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    margin: 0;
+}
+>>>>>>> Stashed changes

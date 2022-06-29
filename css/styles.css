@@ -1,0 +1,24 @@
+<<<<<<< Updated upstream
+=======
+*,html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider-wrap ul{
+    display: flex;
+    flex-wrap: nowrap;
+    transition: 1s;
+    transform: translateX(0px);
+}
+
+.slider-wrap {
+    width: 500px;
+    overflow: hidden; 
+}
+
+.slider-wrap li img{
+    width: 500px;
+}
+>>>>>>> Stashed changes

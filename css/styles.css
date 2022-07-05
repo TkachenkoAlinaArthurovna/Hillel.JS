@@ -1,0 +1,38 @@
+<<<<<<< Updated upstream
+=======
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.field {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.pl1 {
+    width: 400px; 
+}
+
+.pl2 {
+    width: 400px;
+    transform: scaleX(-1);
+}
+
+.start {
+    width: 100px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.result {
+    width: 140px;
+    border: 1px solid black;
+    font-size: 25px;
+    margin-left: 50px;
+}
+>>>>>>> Stashed changes

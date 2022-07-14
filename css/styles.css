@@ -1,0 +1,48 @@
+<<<<<<< Updated upstream
+=======
+.go {
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.elements {
+    width: 150px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.field {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 25px;
+}
+
+.cell {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border : 0.1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.cube {
+    margin-bottom: 25px;
+}
+
+.fishka {
+    position: absolute;
+    width: 45px;
+}
+>>>>>>> Stashed changes

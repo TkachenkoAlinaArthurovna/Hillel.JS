@@ -1,0 +1,57 @@
+.main {
+    background-color: grey;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.login {
+    width: 300px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    margin: 0;
+    padding: 0;
+    height: 25px;
+}
+
+.to-do {
+    display: flex;
+    flex-direction: column;
+    border: solid 5px white;
+}
+
+.list-doings {
+    width: 500px;
+    min-height: 200px;
+    margin: 5px;
+    color: black;
+    background-color: white;
+}
+
+.name {
+    font-size: 40px;
+    color: white;
+}
+
+.create-doings {
+    margin: 10px;
+}
+
+.list-doings {
+    margin: 0;
+    padding: 0;
+}
+
+.list-style {
+    display: block;
+    text-align: start;
+}
+
